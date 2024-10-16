@@ -48,6 +48,7 @@ cdnode *insertatbeg(cdnode *head)
     }
     return head;
 }
+
 cdnode *insertatlast(cdnode *head)
 {
     cdnode *temp = (cdnode *)malloc(sizeof(cdnode));
